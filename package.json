@@ -1,0 +1,13 @@
+{
+  "name": "@khobie-maseko/dropdown-package",
+  "version": "1.0.0",
+  "description": "A reusable dropdown menu component",
+  "main": "index.js",
+  "files": ["index.js", "dropdown.css"],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["dropdown", "menu", "ui"],
+  "author": "Khobie Maseko <khobiemaseko@yahoo.com>",
+  "license": "ISC"
+}

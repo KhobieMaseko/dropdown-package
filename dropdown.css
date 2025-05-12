@@ -1,0 +1,61 @@
+:root {
+  --dropdown-bg-color: #f9f9f9;
+  --dropdown-text-color: #333;
+  --dropdown-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  --dropdown-hover-bg: #f1f1f1;
+  --toggle-bg-color: #3498db;
+  --toggle-text-color: white;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+  margin: 20px;
+}
+
+.dropdown-toggle {
+  padding: 10px 20px;
+  background-color: var(--toggle-bg-color);
+  color: var(--toggle-text-color);
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+.dropdown-toggle:hover {
+  opacity: 0.9;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: var(--dropdown-bg-color);
+  min-width: 160px;
+  box-shadow: var(--dropdown-shadow);
+  z-index: 1;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.dropdown-content a {
+  color: var(--dropdown-text-color);
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  transition: background-color 0.2s ease;
+}
+
+.dropdown-content a:hover {
+  background-color: var(--dropdown-hover-bg);
+}
+
+.dropdown-content.show {
+  display: block;
+  animation: fadeIn 0.3s ease;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(-10px); }
+  to { opacity: 1; transform: translateY(0); }
+}

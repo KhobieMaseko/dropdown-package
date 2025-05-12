@@ -50,3 +50,7 @@ Initializes all dropdowns matching the given selector.
 
 ### `Dropdown` class
 The underlying class that powers the dropdown functionality.
+
+
+![dropdown-package](https://github.com/user-attachments/assets/e80c0270-7f8d-4676-87df-f90021cc6414)
+

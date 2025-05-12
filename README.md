@@ -52,5 +52,8 @@ Initializes all dropdowns matching the given selector.
 The underlying class that powers the dropdown functionality.
 
 
+This npm package and all of its related files can be found at: https://www.npmjs.com/package/@khobie-maseko/dropdown-package 
+
+
 ![dropdown-package](https://github.com/user-attachments/assets/e80c0270-7f8d-4676-87df-f90021cc6414)
 
